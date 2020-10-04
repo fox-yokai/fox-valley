@@ -7,11 +7,13 @@ import Contact from './pages/Contact';
 import Gallery from './pages/Gallery';
 import Terms from './pages/Terms';
 import Pricing from './pages/Pricing';
+import NavComponent from '../src/components/NavBar/navBar';
 
 function App() {
   return (
     <Router>
       <div>
+        <NavComponent />
         <Switch>
           <Route exact path='/' component={Home} />
           <Route exact path='/about' component={About} />
