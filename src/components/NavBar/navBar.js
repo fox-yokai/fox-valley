@@ -1,13 +1,21 @@
 import React from 'react';
 import Navbar from 'react-bootstrap/Navbar';
-import Nav from 'react-bootstrap/Nav'
+import Nav from 'react-bootstrap/Nav';
+import Logo from '../../images/logo-banner.png';
 
 class NavComponent extends React.Component {
     render() {
         return (
             <div>
             <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
-                <Navbar.Brand href="/home">Fox Valley Plushes</Navbar.Brand>
+                <Navbar.Brand href="/home">
+                        <img
+                            alt="fox valley logo"
+                            src={Logo}
+                            className="d-inline-block align-top"
+                            height="50"
+                        />{' '}
+                       </Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="mr-auto">
