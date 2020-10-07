@@ -21,7 +21,7 @@ class NavComponent extends React.Component {
                     <Nav className="mr-auto">
                     <Nav.Link href="/gallery">Gallery</Nav.Link>
                     <Nav.Link href="/pricing">Prices</Nav.Link>
-                    <Nav.Link href="/tos">Terms of Serice</Nav.Link>
+                    <Nav.Link href="/tos">Terms of Service</Nav.Link>
                     <Nav.Link href="/contact">Contact</Nav.Link>
                     <Nav.Link href="/about">About</Nav.Link>
                     </Nav>
