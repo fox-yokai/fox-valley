@@ -1,10 +1,19 @@
 import React from 'react';
+import { Container, Col, Row } from 'react-bootstrap';
+import HomeCard from '../components/homeCard/homeCard';
 
 class Home extends React.Component {
     render() {
         return (
         <div>
-            <h1>This will be the home page!</h1>
+            <Container>
+                <Col md={{span: 7, offset: 3}}>
+                    <br />
+                    <br />
+                    <HomeCard />
+                </Col>
+            </Container>
+            
         </div>
 
         );
