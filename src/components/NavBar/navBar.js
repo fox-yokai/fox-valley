@@ -2,7 +2,8 @@ import React from 'react';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import Logo from '../../images/logo-banner.png';
-import { TiSocialTwitter } from "react-icons/ti";
+import "./navBar.css";
+import { TiSocialTwitter, TiSocialInstagram } from "react-icons/ti";
 import { IconContext } from "react-icons";
 
 class NavComponent extends React.Component {
@@ -28,9 +29,14 @@ class NavComponent extends React.Component {
                     <Nav.Link href="/about">About</Nav.Link>
                     </Nav>
                     <Nav>
-                        <IconContext.Provider value={{ color: "blue", size: "1.5em" , className: "react-icons" }}>
+                        <IconContext.Provider value={{ color: "#00acee", size: "1.5em" , className: "react-icons-twitter" }}>
                             <Nav.Link href="https://twitter.com/f0xvalley" target="_blank">
                                 <TiSocialTwitter />
+                            </Nav.Link>
+                        </IconContext.Provider>
+                        <IconContext.Provider value={{ size: "1.5em", className:"react-icons-instagram" }}>
+                            <Nav.Link href="https://www.instagram.com/f0xvalley/" target="_blank">
+                                <TiSocialInstagram />
                             </Nav.Link>
                         </IconContext.Provider>      
                     </Nav>
