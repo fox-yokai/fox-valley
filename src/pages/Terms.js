@@ -1,19 +1,15 @@
 import React from 'react';
-import { Container, Col, Row } from 'react-bootstrap';
-import TermsCard from "../components/tosCard/tosCard";
+import Page from '../components/Page/Page';
+import TosText from "../components/TosText/TosText";
+
+
 
 class Terms extends React.Component {
     render() {
         return (
-        <div>
-            <Container>
-                <Col md={{span: 7, offset: 3}}>
-                    <br />
-                    <br />
-                    <TermsCard />
-                </Col>
-            </Container>
-        </div>
+            <Page heading="Terms of Service">
+                    <TosText />
+            </Page>
         );
     }
 }
