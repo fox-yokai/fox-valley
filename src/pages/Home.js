@@ -1,21 +1,20 @@
 import React from 'react';
-import { Container, Col, Row } from 'react-bootstrap';
-import HomeCard from '../components/homeCard/homeCard';
+import Page from '../components/Page/Page';
+import HomeText from '../components/HomeText/HomeText';
+import Logo from '../images/logo.PNG';
+import Twitter from '../components/Twitter/Twitter'
 
 class Home extends React.Component {
     render() {
         return (
-        <div>
-            <Container>
-                <Col md={{span: 7, offset: 3}}>
-                    <br />
-                    <br />
-                    <HomeCard />
-                </Col>
-            </Container>
-            
-        </div>
-
+            <>
+            <Page heading="Fox Valley Custom Plushes" logoImg={Logo} logoImgAlt="Fox Valley Custom Plush Toys logo">
+                <HomeText />
+            </Page>
+            <Page>
+                <Twitter />
+            </Page>
+            </>
         );
     }
 }
