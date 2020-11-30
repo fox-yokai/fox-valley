@@ -1,20 +1,24 @@
 import React from 'react';
-import { Container, Col, Row } from 'react-bootstrap';
-import GallaryCard from '../components/gallaryCard/gallaryCard';
+import Page from '../components/Page/Page';
+import ImgComp from "../components/ImgComp/ImgComp";
+import King from '../images/king.jpg';
+import Kaim from '../images/kaim.jpg';
+import MiniMe from '../images/mini-me.jpg';
+import Ro from '../images/ro.jpg';
+import Yancha from '../images/yancha.jpg';
 
 class Gallery extends React.Component {
     render() {
         return (
-            <div>
-            <Container>
-                <Col md={{span: 7, offset: 3}}>
-                    <br />
-                    <br />
-                    <GallaryCard />
-                </Col>
-            </Container>
-            
-        </div>
+        <Page heading="Gallery">
+            <div className="row">
+                <ImgComp img={King} alt="Teddy-style King the African Wild Dog" />
+                <ImgComp img={Kaim} alt="Teddy-style Kaim the fox" />
+                <ImgComp img={MiniMe} alt="Anthro-style Etoile the nekomata" />
+                <ImgComp img={Ro} alt="Teddy-style Ro the dog" />
+                <ImgComp img={Yancha} alt="Kuttari-style Yancha the fox yokai" />
+            </div>
+        </Page>
         );
     }
 }
