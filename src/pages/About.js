@@ -1,18 +1,15 @@
 import React from 'react';
-import { Container, Col, Row } from 'react-bootstrap';
-import AboutCard from '../components/aboutCard/aboutCard';
+import AboutText from '../components/AboutText/AboutText';
+import Page from '../components/Page/Page';
+
 
 class About extends React.Component {
     render() {
         return (
         <div>
-            <Container>
-                <Col md={{span: 7, offset: 3}}>
-                    <br />
-                    <br />
-                    <AboutCard />
-                </Col>
-            </Container>
+            <Page heading="About Me">
+                <AboutText />
+            </Page>
         </div>
         );
     }
