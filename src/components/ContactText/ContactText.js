@@ -1,7 +1,4 @@
 import React, { Fragment } from 'react';
-import TwitterIcon from '../TwitterIcon/TwitterIcon';
-import InstagramIcon from '../InstagramIcon/InstagramIcon';
-
 
 const ContactText = () => {
     return (
