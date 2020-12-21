@@ -3,7 +3,7 @@ import './Page.css';
 
 const Page = (props) => {
     return (
-        <div className="container">
+        <section className="container">
             <div className="row">
                 <div className="col d-flex justify-content-center mt-5 mb-5">
                     <div className="card" style={{"width": "36rem"}}>
@@ -15,7 +15,7 @@ const Page = (props) => {
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
 
         
     );
