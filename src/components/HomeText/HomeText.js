@@ -15,7 +15,7 @@ const HomeText = () => {
                 <p>Next opening to be announced</p>
             </div>
             <div>
-                <h3>Follow me on Instagram and Twitter!</h3>
+                <h3>Follow me on <a href="https://www.instagram.com/f0xvalley/">Instagram</a> and <a href="https://twitter.com/f0xvalley">Twitter</a>!</h3>
             </div>
 
 
