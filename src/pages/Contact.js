@@ -5,11 +5,11 @@ import ContactText from '../components/ContactText/ContactText';
 class Contact extends React.Component {
     render() {
         return (
-        <div>
+        <main>
             <Page heading="Contact Information">
                 <ContactText />
             </Page>
-        </div>
+        </main>
         );
     }
 }

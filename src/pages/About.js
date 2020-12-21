@@ -6,11 +6,11 @@ import Page from '../components/Page/Page';
 class About extends React.Component {
     render() {
         return (
-        <div>
+        <main>
             <Page heading="About Me">
                 <AboutText />
             </Page>
-        </div>
+        </main>
         );
     }
 }

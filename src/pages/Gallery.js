@@ -10,15 +10,18 @@ import Yancha from '../images/yancha.jpg';
 class Gallery extends React.Component {
     render() {
         return (
-        <Page heading="Gallery">
-            <div className="row">
-                <ImgComp img={King} alt="Teddy-style King the African Wild Dog" />
-                <ImgComp img={Kaim} alt="Teddy-style Kaim the fox" />
-                <ImgComp img={MiniMe} alt="Anthro-style Etoile the nekomata" />
-                <ImgComp img={Ro} alt="Teddy-style Ro the dog" />
-                <ImgComp img={Yancha} alt="Kuttari-style Yancha the fox yokai" />
-            </div>
-        </Page>
+        <main>
+            <Page heading="Gallery">
+                <div className="row">
+                    <ImgComp img={King} alt="Teddy-style King the African Wild Dog" />
+                    <ImgComp img={Kaim} alt="Teddy-style Kaim the fox" />
+                    <ImgComp img={MiniMe} alt="Anthro-style Etoile the nekomata" />
+                    <ImgComp img={Ro} alt="Teddy-style Ro the dog" />
+                    <ImgComp img={Yancha} alt="Kuttari-style Yancha the fox yokai" />
+                </div>
+            </Page>
+        </main>
+
         );
     }
 }

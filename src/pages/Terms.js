@@ -7,9 +7,12 @@ import TosText from "../components/TosText/TosText";
 class Terms extends React.Component {
     render() {
         return (
-            <Page heading="Terms of Service">
-                    <TosText />
-            </Page>
+            <main>
+                <Page heading="Terms of Service">
+                        <TosText />
+                </Page>
+            </main>
+
         );
     }
 }

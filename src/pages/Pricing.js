@@ -5,11 +5,11 @@ import PricesText from '../components/PricesText/PricesText';
 class Pricing extends React.Component {
     render() {
         return(
-            <div>
+            <main>
                 <Page heading="Prices">
                     <PricesText />
                 </Page>
-            </div>
+            </main>
         );
     }
 }

@@ -7,14 +7,14 @@ import Twitter from '../components/Twitter/Twitter'
 class Home extends React.Component {
     render() {
         return (
-            <>
+            <main>
             <Page heading="Fox Valley Custom Plushes" logoImg={Logo} logoImgAlt="Fox Valley Custom Plush Toys logo">
                 <HomeText />
             </Page>
             <Page>
                 <Twitter />
             </Page>
-            </>
+            </main>
         );
     }
 }
